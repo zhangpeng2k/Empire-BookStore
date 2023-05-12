@@ -1,0 +1,32 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #333;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    .logo{
+        img{
+            margin-top: 10px;
+            width: 400px;
+            border-radius: 40px;
+            overflow: hidden;
+            &:hover{
+                transform: scale(1.1);
+                transition: all 0.5s ease;
+                cursor: pointer;
+            }
+        }
+    }
+    #main{
+        max-width: 1200px;
+        margin: 40px auto;
+        padding: 20px;
+        background: #fff;
+        border-radius: 10px;
+    }
+    #footer{
+        text-align: center;
+    }
+}
